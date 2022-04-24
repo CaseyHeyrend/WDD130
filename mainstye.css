@@ -1,0 +1,19 @@
+html{
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+body{
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    padding-left: 10px;
+    min-height: 100%;
+    background:url(https://images.pexels.com/photos/1146134/pexels-photo-1146134.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);/*Photo by Felix Mittermeier: https://www.pexels.com/photo/galaxy-1146134/*/
+    background-size: cover;
+    background-repeat: repeat-y;
+  }
+
+  ul{
+    list-style: none;
+  }
