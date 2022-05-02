@@ -9,7 +9,7 @@ html{
     padding-bottom: 6rem;
     padding-left: 10px;
     min-height: 100%;
-    background-image:src="/WDD130/images/sunset-by-noname.jpg";
+    background:url(https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg);/* Photo by NO NAME: https://www.pexels.com/photo/sunset-over-snow-covered-mountains-66997/*/
     background-size: cover;
     background-repeat: repeat-y;
   }
