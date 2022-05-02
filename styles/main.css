@@ -9,7 +9,7 @@ html{
     padding-bottom: 6rem;
     padding-left: 10px;
     min-height: 100%;
-    background-image: url(/WDD130/images/pexels-no-name-66997.jpg);
+    background-image:src="/WDD130/images/sunset-by-noname.jpg";
     background-size: cover;
     background-repeat: repeat-y;
   }
