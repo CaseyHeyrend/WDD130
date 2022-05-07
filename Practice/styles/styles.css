@@ -14,17 +14,20 @@ body {
   a {
     color: white;
     margin: 40px;
+    font-size: 1.5em;
   }
 
   h1 {
     color: steelblue;
   }
   img {
-    width: 800px;
+    width: 80%;
+    /* width: 800px;*/
     border: 4px solid steelblue;
   }
   p {
     padding: 10px;
+    width: 80%;
   }
   .main-para {
     font-size: 1.5em;
