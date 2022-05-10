@@ -2,8 +2,11 @@ body {
     text-align: center;
   }
 
-  nav {
+  nav, footer {
     background-color: steelblue;
+    color: white;
+}
+  nav {
     padding: 10px;
     text-align: center;
   }
@@ -12,7 +15,10 @@ body {
     background-color: white;
     color: steelblue;
 }
-
+  a:hover {
+  background-color: white;
+  color: steelblue;
+  }
   a {
     color: white;
     margin: 40px;
@@ -40,7 +46,10 @@ body {
     line-height: 1.5em;
 }
   footer {
-    background-color: steelblue;
-    color: white;
     text-align: center;
   }
+
+  footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
