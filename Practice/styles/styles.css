@@ -12,26 +12,28 @@ body {
     background-color: white;
     color: steelblue;
 }
+
   a {
     color: white;
     margin: 40px;
     font-size: 1.5em;/* Week 4 */
   }
+
   h1 {
     color: steelblue;
     text-align: center;
   }
+
   img {
-    width: 80%;/*  Week 4 */
-    /* width: 800px; */
-    border: 4px solid steelblue;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
   }
-  * {
-    border: 2px solid blue;
-  }
-  p {
-    padding: 10px;
-    width: 80%;/* Week 4 */
+
+  main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
   }
   .main-para {
     font-size: 1.5em;
@@ -40,4 +42,5 @@ body {
   footer {
     background-color: steelblue;
     color: white;
+    text-align: center;
   }
