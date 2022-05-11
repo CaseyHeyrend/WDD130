@@ -1,5 +1,5 @@
 body {
-    background-color: pink;
+    background-color: HotPink;
 }
 h1 {
     color: black;
@@ -20,10 +20,19 @@ text-align: center;
 ol, li {
     text-align: center;
     list-style-position: inside;
+    
 }
 img {
     margin-left: auto;
     margin-right: auto;
     width: 20%;
     display: block;
+}
+section p{
+    color: white;
+    text-align: center; 
+}
+p{
+    color: black;
+    text-align: center;
 }
