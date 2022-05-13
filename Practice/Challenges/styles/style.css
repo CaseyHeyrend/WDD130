@@ -1,5 +1,5 @@
 body {
-    background-color: HotPink;
+    background-color: lightPink;
 }
 h1 {
     color: black;
@@ -17,11 +17,17 @@ main p{
 color: white;
 text-align: center;
 }
-ol, li {
-    text-align: center;
-    list-style-position: inside;
-    
+.bold{
+    font-weight: bold;
 }
+
+ol, li {
+    align-items:center;
+    list-style-position: inside;
+    justify-content:center;
+    text-align: center; 
+}
+
 img {
     margin-left: auto;
     margin-right: auto;
@@ -30,7 +36,10 @@ img {
 }
 section p{
     color: white;
-    text-align: center; 
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    line-height: 1;
 }
 p{
     color: black;
