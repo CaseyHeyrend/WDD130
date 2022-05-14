@@ -17,10 +17,12 @@ background-color:#396E94;
 }*/
 /* NAV */
 nav a{
-text-align: center;  
+text-align: center;
+color:#78c5d7 ;  
 }
 nav a:hover{
     background-color: #721817;
+    color:#FFFFFF ;
 }
 a:hover, a:visited, a:link, a:active {
     text-decoration: none; 
@@ -32,14 +34,22 @@ a:hover, a:visited, a:link, a:active {
 #hero-msg h1, #hero-msg h4{
     text-align: center;  
 }
+.home-title{
+    color:#134266 ;
+}
+h4{
+    color:#134266;
+}
 .button-box{
     text-align: center;
 }
 .book, .join{
     background-color: #FFFFFF;
+    color: black;
 }
 .book:hover, .join:hover{
-    background-color: #FFFFFF;
+    background-color: #721817;
+    color:#FFFFFF ;
 }
 main section{
     text-align: center;  
@@ -51,6 +61,21 @@ main section{
 .msg{
     background-color: #FFFFFF;
 }
+.msg h2{
+    color:#134266 ;
+}
+.msg p{
+    color:black;
+}
 footer{
     background-color: #721817;
+}
+footer h3{
+    color:#134266 ;
+}
+footer a{
+    color:#78c5d7 ;
+}
+footer a:hover{
+    color:#FFFFFF ;
 }
