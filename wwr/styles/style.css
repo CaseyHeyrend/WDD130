@@ -31,7 +31,7 @@ nav a:hover{
     text-align: center; 
 }
 #hero-img{
-    width: 80px;
+    width: 100%;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;  
@@ -62,7 +62,7 @@ main section{
     background-color:#134266;
 }
 .msg{
-    background-color:#134266;
+    background-color:#721817;
 }
 .msg h2{
     color:#FFFFFF ;
@@ -75,6 +75,9 @@ footer{
 }
 footer h3{
     color:#134266;
+}
+footer h3 a:hover {
+text-decoration: underline;
 }
 footer a{
     color:#78c5d7;
