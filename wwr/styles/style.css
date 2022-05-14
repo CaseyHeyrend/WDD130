@@ -2,17 +2,30 @@
     max-width: 1600px;
     margin: 0 auto;
 }
-
+body{
+background-color: #FFFFFF;  
+}
+/* HEADER */
+header{
+background-color:#396E94; 
+}
 /*#logo_link{
 
 }
 .logo{
 
 }*/
+/* NAV */
 nav a{
 text-align: center;  
 }
-
+nav a:hover{
+    background-color: #721817;
+}
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none; 
+}
+/* END HEADER */
 #hero{
     text-align: center; 
 }
@@ -22,6 +35,22 @@ text-align: center;
 .button-box{
     text-align: center;
 }
+.book, .join{
+    background-color: #FFFFFF;
+}
+.book:hover, .join:hover{
+    background-color: #FFFFFF;
+}
 main section{
     text-align: center;  
+}
+#background{
+    height: 725px;
+/*  background-color: ; */
+}
+.msg{
+    background-color: #FFFFFF;
+}
+footer{
+    background-color: #721817;
 }
