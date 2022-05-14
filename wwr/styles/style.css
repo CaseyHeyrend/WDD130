@@ -62,13 +62,13 @@ main section{
     background-color:#134266;
 }
 .msg{
-    background-color: #FFFFFF;
+    background-color:#134266;
 }
 .msg h2{
-    color:#134266 ;
+    color:#FFFFFF ;
 }
 .msg p{
-    color:black;
+    color:#FFFFFF;
 }
 footer{
     background-color: #721817;
