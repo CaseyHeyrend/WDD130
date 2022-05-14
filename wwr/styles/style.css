@@ -47,7 +47,7 @@ h4{
 }
 .book, .join{
     background-color: #FFFFFF;
-    color: black;
+    color: #78c5d7;
     text-decoration: none; 
 }
 .book:hover, .join:hover{
@@ -59,7 +59,7 @@ main section{
 }
 #background{
     height: 725px;
-/*  background-color: ; */
+    background-color:#134266;
 }
 .msg{
     background-color: #FFFFFF;
