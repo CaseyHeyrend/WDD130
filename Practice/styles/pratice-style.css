@@ -13,7 +13,7 @@ body{
     background-size: cover;
     background-repeat: repeat-y;
   }
-  header > #stars {
+  header > #center {
     display: flex;
     flex-direction: row;
     margin: auto;
@@ -21,6 +21,7 @@ body{
     width: 70%;
     flex-wrap: wrap;
     border-radius: 10px;
+    font-family: 'Belgrano',  serif;
   }
 /* This Nav */
   nav ul{
