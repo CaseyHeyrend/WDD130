@@ -1,0 +1,41 @@
+
+body {
+  text-align: center;
+}
+  nav {
+    background-color: steelblue;
+    padding: 10px;
+    text-align: center;
+  }
+  a {
+    color: white;
+    margin: 40px;
+    font-size: 1.5em;
+  }
+  h1 {
+    color: steelblue;
+    text-align: center;
+  }
+  img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+  }
+  main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+footer {
+  background-color: steelblue;
+  color: white;
+  text-align: center;
+}
+  .main-para {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+#active {
+  background-color: white;
+  color: steelblue;
+}
