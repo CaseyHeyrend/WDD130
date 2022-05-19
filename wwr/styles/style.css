@@ -11,10 +11,10 @@ background-color:#396E94;
 }
 /*#logo_link{
 
-}
-.logo{
-
 }*/
+.logo{
+    width: 80px;
+}
 /* NAV */
 nav a{
 text-align: center;
@@ -85,4 +85,7 @@ footer a{
 }
 footer a:hover{
     color:#FFFFFF ;
+}
+.icon{
+    
 }
