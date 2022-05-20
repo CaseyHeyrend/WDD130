@@ -1,0 +1,43 @@
+#week5{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+#circles{
+    position: absolute;
+    width: 70%;
+}
+#container{
+    position: absolute; 
+    height: 300px;
+    width: 70%;
+    top: 476px;
+    background-color:#737373; 
+}
+
+#desk{
+    position: relative;
+    width: 13%;
+    top: 510px;
+    left: 200px;
+    border-radius: 50%;
+    border: 10px solid #444444;
+}
+
+#graphic{
+    position: relative;
+    width: 13%;
+    top: 510px;
+    left: 300px;
+    border-radius: 50%;
+    border: 10px solid #444444;
+}
+
+#person{
+    position: relative;
+    width: 13%;
+    top: 510px;
+    left: 400px;
+    border-radius: 50%;
+    border: 10px solid #444444;
+}
