@@ -7,11 +7,11 @@
 }
 
 body{
-background-color: #FFFFFF;
-font-size:22px;
-margin: 0;
-padding: 0;
-font-family:'Bitter';/*slab serif */
+    background-color: #FFFFFF;
+    font-family:'Bitter';/*slab serif */
+    font-size:22px;
+    margin: 0;
+    padding: 0;
 }
 
 h2{
@@ -20,11 +20,11 @@ h2{
 }
 /* HEADER */
 header{
-background-color:#396E94; 
+    background-color:#396E94; 
 }
 
 #logo_link{
-padding-top: 5px;
+    padding-top: 5px;
 }
 
 .logo{
@@ -32,10 +32,10 @@ padding-top: 5px;
 }
 /* NAV */
 nav a{
-text-align: center;
-color:#78c5d7;
-text-decoration: none;
-padding: 35px;
+    text-align: center;
+    color:#78c5d7;
+    text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover{
@@ -93,7 +93,7 @@ h4{
     border: 10px solid #721817;
 }
 .icon{
-padding-top: 10px;
+    padding-top: 10px;
 }
 
 main section{
@@ -138,7 +138,7 @@ footer h3{
 }
 
 footer h3 a:hover {
-text-decoration: underline;
+    text-decoration: underline;
 }
 
 footer a{
