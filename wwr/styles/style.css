@@ -1,17 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');/* Quicksand */
+@import url('https://fonts.googleapis.com/css?family=Bitter');/* Bitter */
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
 }
+
 body{
-background-color: #FFFFFF;  
+background-color: #FFFFFF;
+font-size:22px;
+margin: 0;
+padding: 0;
+font-family:'Bitter';/*slab serif */
+}
+
+h2{
+    font-family:'Quicksand',;/*sans serif */
+    margin: 0;
 }
 /* HEADER */
 header{
 background-color:#396E94; 
 }
-/*#logo_link{
 
-}*/
+#logo_link{
+padding-top: 5px;
+}
+
 .logo{
     width: 80px;
 }
@@ -19,75 +34,121 @@ background-color:#396E94;
 nav a{
 text-align: center;
 color:#78c5d7;
-text-decoration: none;  
+text-decoration: none;
+padding: 35px;
 }
+
 nav a:hover{
     background-color: #721817;
     color:#FFFFFF ;
 }
-
 /* END HEADER */
 #hero{
     text-align: center; 
 }
+
 #hero-img{
     width: 100%;
 }
+
 #hero-msg h1, #hero-msg h4{
     text-align: center;  
 }
-.home-title{
-    color:#134266 ;
-}
+
 h4{
     color:#134266;
 }
+
+.home-title{
+    color:#134266;
+    font-size: 2em;
+    font-family:'Quicksand';/*sans serif */
+    margin-top: 10px;
+}
+
 .button-box{
     text-align: center;
 }
+
 .book, .join{
     background-color: #FFFFFF;
     color: #78c5d7;
-    text-decoration: none; 
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius:5px;
 }
+
 .book:hover, .join:hover{
     background-color: #721817;
     color:#FFFFFF ;
 }
+/* Home Grid */
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #721817;
+}
+.icon{
+padding-top: 10px;
+}
+
 main section{
     text-align: center;  
 }
+main section img {
+    box-sizing: border-box;
+}
+/* End Home Grid */
 #background{
     height: 725px;
     background-color:#134266;
 }
+/*Section: Message*/
 .msg{
     background-color:#721817;
+    line-height: 1.5em;
+    font-family:'Quicksand';/*sans serif */
+    padding: 35px;
 }
+
 .msg h2{
     color:#FFFFFF ;
 }
+
 .msg p{
     color:#FFFFFF;
+    font-size: .8em;
+    font-family:'Bitter';/*slab serif */
+    padding-bottom: 15px;
 }
+/* End Main */
+/* Footer*/
 footer{
-    background-color: #721817;
+    background-color:#721817;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
+
 footer h3{
     color:#134266;
 }
+
 footer h3 a:hover {
 text-decoration: underline;
 }
+
 footer a{
     color:#78c5d7;
     text-decoration: none; 
 }
+
 footer a:hover{
     color:#FFFFFF ;
 }
-/*
-.icon{
 
+footer .social img{
+   padding-top: 15px;
 }
-*/
