@@ -1,7 +1,33 @@
-h1{
-    font-size: 40px;
+
+#words{
+    position: absolute; 
+    font-size: 65px;
     color: black;
+    letter-spacing: 20px;
+    left: 70px;
 }
-h3{
-    color: red;
+#cherry{
+    position: absolute;
+    width: 20%;
+    top: 10px;
+    left: 10px;
+    z-index: -1;
+}
+#box{
+    position: absolute; 
+    height: 360px;
+    width: 20%;
+    top: 10px;
+    left: 370px;
+    background-color:#C0C0C0;
+    z-index: -1;
+}
+#red{
+    position: absolute; 
+    color: darkred;
+    font-size: 35px;
+    z-index: 3;
+    top: 250px;
+    left: 450px;
+    letter-spacing: 10px;
 }
