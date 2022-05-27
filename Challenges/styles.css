@@ -1,0 +1,16 @@
+body{
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    padding-left: 10px;
+    min-height: 100%;
+    background:url(https://images.pexels.com/photos/1112186/pexels-photo-1112186.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);/* Photo by HoliHo: https://www.pexels.com/photo/pathway-in-between-trees-at-daytime-1112186/*/
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+ul, li{
+    align-items:center;
+    list-style-position: inside;
+    justify-content:center;
+    text-align: center; 
+}
