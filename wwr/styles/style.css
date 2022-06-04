@@ -35,6 +35,10 @@ header{
     width: 80px;
 }
 /* NAV */
+nav{
+    display: flex;
+    justify-content: space-around; 
+}
 nav a{
     text-align: center;
     color:#78c5d7;
