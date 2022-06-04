@@ -106,15 +106,20 @@ nav a:hover{
     border-radius:5px;
 }
 
-.book:hover, .join:hover{
+.book:hover{
     background-color: #721817;
     color:#FFFFFF ;
+}
+.join:hover{
+    background-color: #134266;
+    color: #FFFFFF;
 }
 /* Home Grid */
 .home-grid{
     display: grid;
     grid-template-columns:repeat(10, 1fr);
 }
+/* Cards */
 .rivers-card{
     grid-column: 2/4;
     grid-row: 2/3;
@@ -135,6 +140,7 @@ nav a:hover{
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
 }
+
 .card-img:hover {
     opacity: .6;
     transform: scale(1.1);
@@ -152,6 +158,12 @@ main section{
 main section img {
     box-sizing: border-box;
 }
+.mountains{
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #78c5d7; 
+}
 /* End Home Grid */
 #background{
     height: 725px;
@@ -162,12 +174,7 @@ main section img {
     grid-column: 1/11;
     grid-row: 4/9;
 }
-.mountains{
-    width: 100%;
-    grid-column: 2/7;
-    grid-row: 5/8;
-    box-shadow: 5px 5px 10px #6f7364; 
-}
+
 /*Section: Message*/
 .msg{
     background-color:#721817;
@@ -176,7 +183,7 @@ main section img {
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #78c5d7;
 }
 
 .msg h2{
