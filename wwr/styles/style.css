@@ -40,8 +40,8 @@ nav a{
     color:#78c5d7;
     text-decoration: none;
     padding: 35px;
-    display: flex;
-    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav a:hover{
@@ -113,7 +113,7 @@ nav a:hover{
 /* Home Grid */
 .home-grid{
     display: grid;
-    /*grid-template-columns: ;*/
+    grid-template-columns:repeat(10, 1fr);
 }
 .rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
@@ -144,6 +144,11 @@ main section img {
 #background{
     height: 725px;
     background-color:#134266;
+    padding: 25px 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    grid-column: 1/11;
+    grid-row: 4/9;
 }
 .mountains{
     width: 100%;
