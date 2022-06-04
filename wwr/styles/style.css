@@ -5,7 +5,9 @@
     max-width: 1600px;
     margin: 0 auto;
 }
-
+html{
+    height: 100%;
+}
 body{
     background-color: #FFFFFF;
     font-family:'Bitter';/*slab serif */
