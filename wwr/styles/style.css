@@ -144,7 +144,7 @@ nav a:hover{
 .card-img{
     border: 10px solid #721817;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #78c5d7;
 }
 
 .card-img:hover {
