@@ -26,48 +26,31 @@ html{
     flex-wrap: wrap;
     border-radius: 10px;
     font-family: 'Belgrano',  serif;
+    
   }
 /* This Nav */
   nav{
     display: flex;
     justify-content: space-around; 
+    font-family: "daniel", sans-serif;
+    background-color:#E0FFFF;/* LightCyan  */ 
   }
-
+  
   nav a {
     text-align: center;
+    color:#00525E;/* Midnight Green Eagle Green */
     text-decoration: none;
-    color: #00525E;/* Midnight Green Eagle Green */
-    display: block;
-    transition: .3s background-color;
+    padding: 35px;
     margin-left: auto;
     margin-right: auto;
-    padding: 35px;
-    font-family: "daniel", sans-serif;
-    word-spacing: normal;
   }
-  /* Black */ 
+
   nav a:hover {
-    background-color: #AFEEEE;/* PaleTurquoise  */
-    color: #E0FFFF;/* LightCyan  */
+    background-color:#AFEEEE; /*PaleTurquoise */
+    color:#00525E;
   }
-  /* Crimson  */
-  nav a.active {
-    background-color:#AFEEEE;/* PaleTurquoise  */
-    color: #AFEEEE;/* PaleTurquoise  */
-    cursor: default;
-  }
-  @media screen and (min-width: 900px) {
-    nav, footer {
-      flex-direction: column;
-  }
-    nav a {
-      display: block;
-      padding: 15px;
-  }
-  footer {
-    margin-top: 25px;
-}
-  }
+
+
 
   footer{
     background-color: #E0FFFF;/* LightCyan  */
@@ -82,4 +65,18 @@ html{
     border-right-style: none;
     border-left-style: none;
     border-bottom-style: none;
+}
+@media screen and (max-width: 900px) {
+  
+  nav, footer {
+      flex-direction: column;
+  }
+  nav a {
+      display: block;
+      padding: 15px;
+  }
+  
+  footer {
+      margin-top: 25px;
+  }
 }
