@@ -1,7 +1,11 @@
 html{
     height: 100%;
-    box-sizing: border-box;
   }
+
+  #content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
 
   body{
     position: relative;
@@ -24,31 +28,27 @@ html{
     font-family: 'Belgrano',  serif;
   }
 /* This Nav */
-  nav ul{
-    list-style: none;
-    background-color: #E0FFFF;/* LightCyan  */
-    text-align: center;
-    padding: 10px;
-    margin: 0; 
+  nav{
+    display: flex;
+    justify-content: space-around; 
   }
-  nav li {
-    list-style: none;
-    font-family: "daniel", sans-serif;
-    font-size: 1em;
-    line-height: 20px;
-    height: 10px;
-    border-bottom: 1px solid;
-    word-spacing: normal;
-  }
+
   nav a {
+    text-align: center;
     text-decoration: none;
     color: #00525E;/* Midnight Green Eagle Green */
     display: block;
     transition: .3s background-color;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 35px;
+    font-family: "daniel", sans-serif;
+    word-spacing: normal;
   }
   /* Black */ 
   nav a:hover {
     background-color: #AFEEEE;/* PaleTurquoise  */
+    color: #E0FFFF;/* LightCyan  */
   }
   /* Crimson  */
   nav a.active {
@@ -56,16 +56,17 @@ html{
     color: #AFEEEE;/* PaleTurquoise  */
     cursor: default;
   }
-  @media screen and (min-width: 800px) {
-    nav li {
-      width: 120px;
-      border-bottom: none;
-      height: 30px;
-      line-height: 30px;
-      font-size: 1.4em;
-      display: inline-block;
-      margin-right: -4px;
-    }
+  @media screen and (min-width: 900px) {
+    nav, footer {
+      flex-direction: column;
+  }
+    nav a {
+      display: block;
+      padding: 15px;
+  }
+  footer {
+    margin-top: 25px;
+}
   }
 
   footer{
