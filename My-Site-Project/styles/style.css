@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');/* Quicksand */
+@import url('https://fonts.googleapis.com/css?family=Bitter');/* Bitter */
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
 }
-
+html{
+    height: 100%;
+}
 body{
+    background-color: #FFFFFF;
+    font-family:'Bitter';/*slab serif */
     font-size:22px;
     margin: 0;
     padding: 0;
