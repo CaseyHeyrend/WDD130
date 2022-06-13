@@ -8,15 +8,38 @@ body{
     margin: 0;
     padding: 0;
 }
+header{
+    background-color:#396E94;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.logo{
+    width: 80px;
+}
 /* NAV */
+nav{
+    display: flex;
+    justify-content: space-around; 
+}
 nav a{
     text-align: center;
-    color:whitesmoke;
+    color:#78c5d7;
     text-decoration: none;
     padding: 35px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav a:hover{
-    background-color: forestgreen;
+    background-color: #721817;
     color:#FFFFFF ;
 }
+/* END NAV */
+/* END HEADER */
