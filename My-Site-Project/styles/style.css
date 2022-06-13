@@ -50,3 +50,28 @@ nav a:hover{
 }
 /* END NAV */
 /* END HEADER */
+footer{
+    background-color:#3F6766;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h3{
+    color:#B86F52;
+}
+
+footer h3 a:hover {
+    text-decoration: underline;
+}
+
+footer a{
+    color:#DAE2D5;
+    text-decoration: none; 
+}
+
+footer a:hover{
+    color:#4B5842 ;
+}
