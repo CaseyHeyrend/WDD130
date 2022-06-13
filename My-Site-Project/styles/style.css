@@ -9,7 +9,7 @@ body{
     padding: 0;
 }
 header{
-    background-color:#396E94;
+    background-color:#3F6766;
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -30,7 +30,7 @@ nav{
 }
 nav a{
     text-align: center;
-    color:#78c5d7;
+    color:#DAE2D5;
     text-decoration: none;
     padding: 35px;
     margin-left: auto;
@@ -38,8 +38,8 @@ nav a{
 }
 
 nav a:hover{
-    background-color: #721817;
-    color:#FFFFFF ;
+    background-color: #4B5842;
+    color:#B86F52;
 }
 /* END NAV */
 /* END HEADER */
