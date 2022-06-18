@@ -276,8 +276,31 @@ footer .social img{
     }
 }
 /* River */
+
+#boxrivers{
+    background-color:#134266;
+    color: #78c5d7;
+    height: 400px;
+    width: 1110px;
+    margin-top: 70px;
+    margin-left: 70px;
+    line-height: 1.5em;
+    padding: 35px;
+    
+}
 .centerh2{
     font-family:'Quicksand';/*sans serif*/
     margin: 0;
     text-align: center;
+}
+
+.priver{
+ color: #78c5d7;
+ font-size: .8em;
+ font-family:'Bitter';/*slab serif */ 
+ 
+}
+.imgriver{
+    margin-top: 50px;
+    margin-left: 750px;
 }
