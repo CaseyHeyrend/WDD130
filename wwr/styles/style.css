@@ -271,37 +271,56 @@ footer .social img{
         display: block;
         margin: 0 auto;
     }
+    #boxriver, .priver{
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
     footer {
         margin-top: 25px;
     }
 }
 /* River */
-
+.centerh2{
+    font-family:'Quicksand';/*sans serif*/
+    margin: 0;
+    text-align: center;
+    margin-top: 40px;
+}
 #boxrivers{
     background-color:#134266;
     color: #78c5d7;
     height: 400px;
-    width: 1110px;
+    width: 1100px;
     margin-top: 70px;
     margin-left: auto;
     margin-right: auto;
     line-height: 1.5em;
     padding: 35px;
-    
-}
-.centerh2{
-    font-family:'Quicksand';/*sans serif*/
-    margin: 0;
-    text-align: center;
 }
 
 .priver{
  color: #78c5d7;
  font-size: .8em;
- font-family:'Bitter';/*slab serif */ 
+ font-family:'Bitter';/*slab serif */
+ overflow-wrap: break-word;
  
 }
+#rivergrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.white{
+    background-color:#FFFFFF;
+    height: 520px;
+    width: 65%;
+    margin-top: 40px;
+    margin-left: 220px;
+
+    
+}
 .imgriver{
-    margin-top: 50px;
-    margin-left: 750px;
+    width: 65%;
+    margin-top: 40px;
+    margin-left: 4px;
 }
