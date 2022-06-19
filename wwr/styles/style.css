@@ -276,6 +276,10 @@ footer .social img{
         display: block;
         margin: 0 auto;
     }
+    .imgriver{
+        margin: 50px auto;
+        width: 60%;
+    }
     footer {
         margin-top: 25px;
     }
