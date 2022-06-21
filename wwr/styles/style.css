@@ -346,6 +346,7 @@ form {
   
   form li + li {
     margin-top: 1em;
+    list-style: none;
   }
   
   label {
