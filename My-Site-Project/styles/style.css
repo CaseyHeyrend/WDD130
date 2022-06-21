@@ -90,3 +90,15 @@ footer a{
 footer a:hover{
     color:#4B5842 ;
 }
+@media screen and (max-width: 900px) {
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
