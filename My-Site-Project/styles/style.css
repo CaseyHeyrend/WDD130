@@ -61,8 +61,11 @@ nav a:hover{
     overflow-wrap: break-word;
 }
 #UWC{
-    text-align: right;
+    text-align: left;
     overflow-wrap: break-word;
+}
+.Uwater{
+    margin-left: 1000px;
 }
 /*Footer */
 footer{
