@@ -50,6 +50,19 @@ nav a:hover{
 }
 /* END NAV */
 /* END HEADER */
+#mainQ{
+    text-align: center;
+}
+#NaFo{
+    background-color: #3F6766;
+}
+#TCQ{
+    text-align: left;
+}
+#UWC{
+    text-align: right;
+}
+/*Footer */
 footer{
     background-color:#3F6766;
     padding: 25px 50px;
