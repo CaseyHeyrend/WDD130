@@ -22,29 +22,6 @@
                 <a href="/WDD130/wwr/contactus.html">Contact Us</a>
             </nav>
         </header>
-        <main>
-            <div id="feedback"></div>
-            <form action="/my-handling-form-page" method="post">
-                <ul>
-                 <li>
-                   <label for="name">Name:</label>
-                   <input type="text" id="name" name="user_name">
-                 </li>
-                 <li>
-                   <label for="mail">E-mail:</label>
-                   <input type="email" id="mail" name="user_email">
-                 </li>
-                 <li>
-                   <label for="msg">Message:</label>
-                   <textarea id="msg" name="user_message"></textarea>
-                 </li>
-                </ul>
-                <input type="text" value="by default this element is filled with this text">
-                <li class="button">
-                    <button type="submit">Send your message</button>
-                  </li>
-               </form>                
-        </main>
         <script>
             // get the feedback div element so we can do something with it.
             const feedbackElement = document.getElementById('feedback');
@@ -62,6 +39,28 @@
                 document.body.classList.toggle('moveDown');
             });
         </script>
+        <main>
+            <div id="feedback"></div>
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+                <li>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name">
+                </li>
+                <li>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="user_email">
+                </li> 
+                <li>
+                    <label for="msg">Message</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </li>
+                <li class="button">
+                    <button type="submit">Send your message</button>
+                </li>
+                </ul>
+        </form>              
+        </main>
         <footer>
             <h3>Dry Oar &copy; 2022 - Casey Heyrend</h3>
             <h3><a href="/WDD130/wwr/site-plan-rafting.html">Site Plan</a></h3>

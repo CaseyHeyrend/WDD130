@@ -393,8 +393,7 @@ form {
        between the labels and their text fields */
     margin-left: .5em;
   }
-  
-#feedback {
+  #feedback {
     background-color: antiquewhite;
     position: absolute;
     top: 0;
