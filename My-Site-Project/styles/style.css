@@ -58,9 +58,11 @@ nav a:hover{
 }
 #TCQ{
     text-align: left;
+    overflow-wrap: break-word;
 }
 #UWC{
     text-align: right;
+    overflow-wrap: break-word;
 }
 /*Footer */
 footer{
