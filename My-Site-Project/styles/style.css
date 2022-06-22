@@ -50,6 +50,7 @@ nav a:hover{
 }
 /* END NAV */
 /* END HEADER */
+/* Index */
 #mainQ{
     text-align: center;
     font-family:'Bitter';/*slab serif */
@@ -64,7 +65,7 @@ nav a:hover{
    -webkit-column-count: 1; 
     column-count: 2; 
 }
-#TCQ{
+.TCQ{
     text-align: left;
     overflow-wrap: break-word;
     font-family:'Bitter';/*slab serif */
@@ -90,6 +91,8 @@ nav a:hover{
     margin-left: 100px;
     margin-top: 10px;
 }
+/* Targhee */
+
 /*Footer */
 footer{
     background-color:#3F6766;
