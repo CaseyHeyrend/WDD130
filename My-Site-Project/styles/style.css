@@ -68,10 +68,7 @@ h2,h3{
    -webkit-column-count: 1; 
     column-count: 2; 
 }
-.Targhee{
-    -webkit-column-count: 1; 
-     column-count: 2; 
- }
+
 .TCQ{
     text-align: left;
     overflow-wrap: break-word;
@@ -99,6 +96,10 @@ h2,h3{
     margin-top: 10px;
 }
 /* Targhee */
+.caribou{
+    -webkit-column-count: 1; 
+     column-count: 2; 
+ }
 .Trees{
 width: 60%;
 margin-left: 150px;
