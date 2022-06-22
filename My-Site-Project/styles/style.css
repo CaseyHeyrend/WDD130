@@ -64,10 +64,14 @@ h2,h3{
     background-color: #3F6766;
     color: #B86F52;
 }
-.Targhee{
+#Targhee{
    -webkit-column-count: 1; 
     column-count: 2; 
 }
+.Targhee{
+    -webkit-column-count: 1; 
+     column-count: 2; 
+ }
 .TCQ{
     text-align: left;
     overflow-wrap: break-word;
@@ -124,7 +128,7 @@ margin-top: 60px;
 margin-top: auto;
 }
 /* Uinta */
-#Cache{
+.Cache{
     -webkit-column-count: 1; 
     column-count: 2;
     margin-top: 30px;
