@@ -64,7 +64,7 @@ h2,h3{
     background-color: #3F6766;
     color: #B86F52;
 }
-#Targhee{
+.Targhee{
    -webkit-column-count: 1; 
     column-count: 2; 
 }
