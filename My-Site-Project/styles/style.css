@@ -51,6 +51,9 @@ nav a:hover{
 /* END NAV */
 /* END HEADER */
 /* Index */
+h2,h3{
+    font-family:'Quicksand';/*sans serif */;
+}
 #mainQ{
     text-align: center;
     font-family:'Bitter';/*slab serif */
