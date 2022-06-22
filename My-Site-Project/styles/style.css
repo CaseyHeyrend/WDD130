@@ -28,7 +28,8 @@ header{
 }
 
 .logo{
-    width: 100px;
+    width: 150px;
+    margin-left: 20px;
 }
 /* NAV */
 nav{
@@ -40,8 +41,7 @@ nav a{
     color:#DAE2D5;
     text-decoration: none;
     padding: 35px;
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
 nav a:hover{
@@ -52,20 +52,43 @@ nav a:hover{
 /* END HEADER */
 #mainQ{
     text-align: center;
+    font-family:'Bitter';/*slab serif */
+    margin-left: auto;
+    margin-right: auto;
 }
 #NaFo{
     background-color: #3F6766;
+    color: #B86F52;
+}
+#Targhee{
+   -webkit-column-count: 1; 
+    column-count: 2; 
 }
 #TCQ{
     text-align: left;
     overflow-wrap: break-word;
+    font-family:'Bitter';/*slab serif */
+    margin-left: 20px;
+    
+}
+.Tmount{
+    margin-left: 100px;
+    margin-top: 10px;
+    
+}
+#Uinta{
+    -webkit-column-count: 1; 
+    column-count: 2;  
 }
 #UWC{
     text-align: left;
     overflow-wrap: break-word;
+    font-family:'Bitter';/*slab serif */
+    margin-left: 20px; 
 }
 .Uwater{
-    margin-left: 1000px;
+    margin-left: 100px;
+    margin-top: 10px;
 }
 /*Footer */
 footer{
